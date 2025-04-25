@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* General */
+body {
+  font-family: 'Roboto'; 
+  margin: 0;
+  padding: 0;
+  background-color: #fff9f2;
+}
+
+/* Menú */
+.menu {
+  background-color: #e4002b;
+  padding: 10px 0;
+  top: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  position: sticky;
+  z-index: 999;
+  border-bottom: 2px solid white; 
+  margin-bottom: 10px; 
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px 20px;
+}
+
+.apartado a:hover {
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+  background-color: #f7bc00;
+  color: #e4002b;
+}
+  
+  /* Contenedor de la biografía */
+  .biografia-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 150px auto; 
+    background-color: white; 
+    padding: 30px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+  }
+  
+  .foto-container img {
+    width: 200px;
+    height: auto;
+    border-radius: 100%; 
+    border: 3px solid #e4002b; 
+  }
+  
+  .nombre {
+    font-family: 'Great Vibes', cursive; 
+    font-size: 2.5rem;
+    color: #e4002b; 
+    margin: 15px 0;
+  }
+  
+  .texto-biografia {
+    font-size: 1rem;
+    line-height: 1.8; 
+    color: black; 
+  }
+  
+ /* Botón de WhatsApp */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 25px;
+    padding: 15px;
+    color: #25D366;
+    font-size: 50px;
+  }
+    
+  .whatsapp:hover {
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+  }
